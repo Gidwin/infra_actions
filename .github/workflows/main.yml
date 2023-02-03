@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: action/checkout@av2
+    - uses: actions/checkout@av2
     - name: Run a one-line script
       run: echo hello, world!
     - name: Run a multi-line script
